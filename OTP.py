@@ -1,6 +1,6 @@
 import random
 
-otp = random.randint(1000, 9999)
+otp = random.randint(100000, 999999)
 print("Your OTP is :",otp)
 
 enter_otp = int(input("Enter Your OTP :"))
